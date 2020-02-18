@@ -1,0 +1,730 @@
+/* Nav */
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+.xd {
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: white;
+}
+
+.nav-link {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* end nav */
+
+/* TEAM SECTION */
+/* team section */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Raleway:100,600";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: rgba(255, 255, 255, 1);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team {
+  margin: 40px;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: orange;
+  /* Primary color, can be changed via colors.css */
+
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, 0.97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* END TEAM */
+
+/* tombol contact */
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+}
+
+.tombolprt {
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* end tbl contact */
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(Untitled-1.png);
+  background-size: cover;
+  height: 590px;
+  text-align: center;
+  position: relative;
+}
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: -60px;
+  background-color: white;
+  padding: 5px;
+}
+
+/* .info-panel2 {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-bottom: 100px;
+  margin-top: -40px;
+  background-color: white;
+  padding: 30px;
+  z-index: 2;
+} */
+.info-panel3 {
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.info-panel3 h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info-panel h1 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: orange;
+  margin-top: 15px;
+}
+/* .info-panel2 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+} */
+
+.me {
+  width: 400px;
+  /* border-radius: 50px; */
+  margin-left: 40px;
+  /* -webkit-box-shadow:  rgba(97,97,97,1);
+    -moz-box-shadow: -21px 30px 92px -56px rgba(97,97,97,1); */
+}
+.mee {
+  width: 100%;
+  /* border-radius: 50px; */
+  /* -webkit-box-shadow:  rgba(97,97,97,1);
+    -moz-box-shadow: -21px 30px 92px -56px rgba(97,97,97,1); */
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.txtme h3 {
+  margin-top: 250px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: -100px;
+}
+.txtmee h3 {
+  margin-top: -100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  font-weight: bold;
+  margin-left: -20px;
+}
+.xd {
+  color: #222;
+  font-size: 50px;
+}
+
+.txtme p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: justify;
+  margin-left: -100px;
+}
+.txtmee p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: justify;
+  margin-left: -20px;
+}
+
+.contain {
+  margin-top: 200px;
+}
+
+.skill {
+  background-color: orange;
+  height: 500px;
+  margin-top: -150px;
+}
+.skill p {
+  margin-top: 220px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-weight: bold;
+}
+.skills {
+  background-color: orange;
+  height: 500px;
+  margin-top: -150px;
+}
+.skills p {
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-weight: bold;
+}
+#skillbar {
+  list-style: none;
+  font-size: 12px;
+  width: 100%;
+  padding: 0;
+  margin-top: 100px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
+}
+#skillbar li {
+  padding: 0;
+  height: 2.5em;
+  line-height: 2.5em;
+  margin: 0.9em auto;
+}
+#skillbar li h3 {
+  position: relative;
+  font-size: 15px;
+  line-height: 2.2em;
+  color: orange;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.thebar {
+  height: 2.5em;
+  padding: 0;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.thebars {
+  height: 2.5em;
+  padding: 0;
+  margin: 0 auto;
+  position: absolute;
+  width: 90%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.progressdefault {
+  background-color: #222;
+}
+.progresspink {
+  background-color: #222;
+}
+.progressorange {
+  background: #222;
+}
+.progressgreen {
+  background-color: #222;
+}
+.progressblue {
+  background-color: #222;
+}
+
+@media only screen and (max-width: 600px) {
+  .me {
+    width: 1280;
+    /* border-radius: 50px; */
+    height: 400px;
+    max-width: 300px;
+    margin-left: 45px;
+    margin-top: -190px;
+  }
+  .txtme h3 {
+    margin-top: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    margin-left: -200px;
+  }
+  .txtme p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 75px;
+    text-align: justify;
+    margin-left: -200px;
+    margin-bottom: 150px;
+    text-align: center;
+  }
+  .mee {
+    width: 100%;
+    /* border-radius: 50px; */
+    margin-top: -190px;
+    position: relative;
+    margin-left: 110px;
+  }
+  .txtmee h3 {
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    margin-left: -200px;
+  }
+
+  .txtmee p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 75px;
+    text-align: justify;
+    margin-left: -200px;
+    margin-bottom: 250px;
+    text-align: center;
+  }
+}
+
+/* desktop ver */
+@media (min-width: 992px) {
+  /*   
+  .navbar{
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+   */
+
+  .info-panel h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-top: 10px;
+  }
+  .info-panel {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-top: -80px;
+    background-color: orange;
+    padding: 20px;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-brand {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #f9ca24;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -83px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 100px;
+    margin-bottom: 90px;
+    font-weight: 400;
+    margin-top: 150px;
+  }
+
+  .me {
+    width: 400px;
+    /* border-radius: 50px; */
+    margin-top: -100px;
+    -webkit-filter: drop-shadow(-21px 30px 92px -56px rgb(128, 128, 128));
+    filter: drop-shadow(5px 5px 5px rgb(146, 145, 145));
+  }
+  .mee {
+    width: 60%;
+    margin-left: 120px;
+    margin-top: -15px;
+    margin-bottom: 100px;
+  }
+  .txtme h3 {
+    margin-top: -20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-left: 10px;
+  }
+  .txtmee h3 {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .txtme p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 10px;
+  }
+  .waves {
+    margin-top: -200px;
+    margin-bottom: auto;
+  }
+  .txtmee p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .skill {
+    background-color: orange;
+    height: 550px;
+    margin-top: 0;
+  }
+  .skill p {
+    margin-top: 180px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    font-weight: bold;
+  }
+
+  .skills {
+    background-color: orange;
+    height: 550px;
+    margin-top: -150px;
+    margin-top: 0;
+  }
+  .skills p {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    font-weight: bold;
+  }
+  .contain {
+    margin-top: 150px;
+  }
+  #skillbar {
+    list-style: none;
+    font-size: 12px;
+    width: 50%;
+    padding: -10px;
+    margin-top: 60px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #skillbar li {
+    padding: 0;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin: 0.9em auto;
+  }
+  #skillbar li h3 {
+    position: relative;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: orange;
+    margin-left: 10px;
+    font-weight: normal;
+  }
+  .thebar {
+    height: 2.5em;
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+  .progressdefault {
+    background-color: #222;
+  }
+  .progresspink {
+    background-color: #222;
+  }
+  .progressorange {
+    background: #222;
+  }
+  .progressgreen {
+    background-color: #222;
+  }
+  .progressblue {
+    background-color: #222;
+  }
+  .about {
+    margin-top: 100px;
+  }
+  .dreamtext {
+    margin-top: 100px;
+  }
+  .dreamtext h3 {
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .dreamtext p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .dream {
+    margin-top: -40px;
+  }
+  .botlow {
+    margin-bottom: 90px;
+  }
+
+  .contactxt {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .contactxt h3 {
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .contactxt p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .contact {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 70px;
+  }
+
+  .TombolContact {
+    width: 80%;
+    margin-left: 80px;
+    background-color: turquoise;
+    outline-color: turquoise;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
