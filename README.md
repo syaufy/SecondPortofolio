@@ -2,7 +2,7 @@
 This is my second portofolio, the main portofolio is online now at syauqizaidan.github.io
 
 # Thanks
-Thanks to UIDeck.com to give this free template so i can make this customizable and make it more interesting.
+Thanks to Bootstrap so i can make this customizable and make it more interesting.
 
 # Released
 Released in 10 September 2019. Build with <3 with me.
